@@ -1,0 +1,224 @@
+body{
+    background-color: darkmagenta;
+    text-transform: uppercase;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    width: 90%;
+    padding: 10px;
+    color:#fff;
+    background-color: cornflowerblue;
+    list-style: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.tc,.ps{
+    
+  
+    width: 30%;
+    margin: 10%;
+    
+}
+.tc{
+    margin-right:10px ;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(2, 9, 15);
+}
+h3{
+    margin:5px;
+}
+.skill li{
+    margin: 20px 0;
+    padding:10px;
+}
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 10px solid rgba(0,0,0,0.3);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 10px 10px rgba(0,0,0,0.24);
+}
+.bar :hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 85%;
+    animation: html 3s;
+}
+.css{
+    width: 45%;
+    animation: css 3s;
+}
+.js{
+    width: 55%;
+    animation: js 3s;
+}
+.c{
+    width: 75%;
+    animation: c 3s;
+}
+.java{
+    width: 73%;
+    animation: c 3s;
+}
+.ds{
+    width: 33%;
+    animation: ds 3s;
+}
+.sql{
+    width:90%;
+    animation: sql 3s;
+}
+.Dbms{
+    width: 88%;
+    animation: Dbms 3s;
+}
+.oops{
+    width:95%;
+    animation: oops 3s;
+}
+.github{
+    width: 70%;
+    animation: github 3s;
+}
+.TL{
+    width: 88%;
+    animation: TL 3s;
+}
+.ST{
+    width: 75%;
+    animation: ST 3s;
+}
+.EO{
+    width: 95%;
+    animation: EO 3s;
+}
+.AT{
+    width: 65%;
+    animation: AT 3s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:45%;
+    }
+}
+@keyframes c{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes java{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:73%;
+    }
+}
+@keyframes ds{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:33%;
+    }
+}
+@keyframes Dbms{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:88%;
+    }
+}
+@keyframes oops{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:95%;
+    }
+}
+@keyframes sql{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes github{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes js{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:55%;
+    }
+}
+@keyframes AT{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:65%;
+    }
+}
+@keyframes EO{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:95%;
+    }
+}
+@keyframes ST{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes TL{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:88%;
+    }
+}
